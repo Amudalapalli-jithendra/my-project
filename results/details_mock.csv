@@ -1,0 +1,212 @@
+method,question_id,question,gold,predicted,correct,raw_output
+single_cheap,0,Sam has 12 apples. He gives away 5 and then buys 8 more. How many apples does he have now?,15,5.0,False,"(mock reasoning by mock-small)
+Final answer: 5"
+single_cheap,1,A notebook costs $3 and a pen costs $1.50. How much do 7 notebooks and 2 pens cost in dollars?,24,23.0,False,"(mock reasoning by mock-small)
+Final answer: 23"
+single_cheap,2,A train travels at 60 miles per hour for 2.5 hours. How many miles does it travel?,150,150.0,True,"(mock reasoning by mock-small)
+Final answer: 150"
+single_cheap,3,A class has 30 students and 40% of them are girls. How many boys are in the class?,18,15.0,False,"(mock reasoning by mock-small)
+Final answer: 15"
+single_cheap,4,A recipe needs 3 eggs per cake. Anna wants to bake 4 cakes and has 5 eggs. How many more eggs does she need to buy?,7,-3.0,False,"(mock reasoning by mock-small)
+Final answer: -3"
+single_cheap,5,A rectangle is 8 meters long and 5 meters wide. What is its perimeter in meters?,26,26.0,True,"(mock reasoning by mock-small)
+Final answer: 26"
+single_cheap,6,Maria earns $15 per hour. She works 6 hours a day for 5 days. How many dollars does she earn in total?,450,450.0,True,"(mock reasoning by mock-small)
+Final answer: 450"
+single_cheap,7,Tom reads 25 pages a day. His book has 400 pages and he has already read 150. How many more days will it take him to finish?,10,10.0,True,"(mock reasoning by mock-small)
+Final answer: 10"
+single_cheap,8,"A shirt costs $40. It is discounted by 25%, and then a $5 coupon is applied. What is the final price in dollars?",25,25.0,True,"(mock reasoning by mock-small)
+Final answer: 25"
+single_cheap,9,Three friends split a $72 dinner bill plus a $9 tip equally. How many dollars does each person pay?,27,27.0,True,"(mock reasoning by mock-small)
+Final answer: 27"
+single_cheap,10,A water tank holds 200 liters and is 35% full. How many more liters are needed to fill it?,130,135.0,False,"(mock reasoning by mock-small)
+Final answer: 135"
+single_cheap,11,A pack of 6 pencils costs $2. How many dollars do 30 pencils cost?,10,10.0,True,"(mock reasoning by mock-small)
+Final answer: 10"
+single_cheap,12,A garden has 4 rows of 9 tomato plants and 3 rows of 7 pepper plants. How many plants are there in total?,57,47.0,False,"(mock reasoning by mock-small)
+Final answer: 47"
+single_cheap,13,Jane is 3 times as old as her son. Her son is 12. How old will Jane be in 5 years?,41,39.0,False,"(mock reasoning by mock-small)
+Final answer: 39"
+single_cheap,14,A bakery sold 48 muffins in the morning and half as many in the afternoon. Each muffin costs $2. How many dollars did they make?,144,146.0,False,"(mock reasoning by mock-small)
+Final answer: 146"
+single_cheap,15,A car goes 25 miles per gallon. A trip is 175 miles and gas costs $4 per gallon. How many dollars does the gas cost?,28,28.0,True,"(mock reasoning by mock-small)
+Final answer: 28"
+single_cheap,16,"There are 5 boxes with 24 cookies each. 18 cookies are eaten, and the rest are packed into bags of 6. How many bags are filled?",17,17.0,True,"(mock reasoning by mock-small)
+Final answer: 17"
+single_cheap,17,The temperature is 8 degrees and drops 3 degrees every hour for 5 hours. What is the temperature now?,-7,-10.0,False,"(mock reasoning by mock-small)
+Final answer: -10"
+single_cheap,18,The average of 4 test scores is 85. A fifth test score is 95. What is the new average?,87,87.0,True,"(mock reasoning by mock-small)
+Final answer: 87"
+single_cheap,19,A store had 120 shirts. It sold one third on Monday and one quarter of the remaining shirts on Tuesday. How many shirts are left?,60,60.0,True,"(mock reasoning by mock-small)
+Final answer: 60"
+single_strong,0,Sam has 12 apples. He gives away 5 and then buys 8 more. How many apples does he have now?,15,15.0,True,"(mock reasoning by mock-large)
+Final answer: 15"
+single_strong,1,A notebook costs $3 and a pen costs $1.50. How much do 7 notebooks and 2 pens cost in dollars?,24,24.0,True,"(mock reasoning by mock-large)
+Final answer: 24"
+single_strong,2,A train travels at 60 miles per hour for 2.5 hours. How many miles does it travel?,150,150.0,True,"(mock reasoning by mock-large)
+Final answer: 150"
+single_strong,3,A class has 30 students and 40% of them are girls. How many boys are in the class?,18,18.0,True,"(mock reasoning by mock-large)
+Final answer: 18"
+single_strong,4,A recipe needs 3 eggs per cake. Anna wants to bake 4 cakes and has 5 eggs. How many more eggs does she need to buy?,7,7.0,True,"(mock reasoning by mock-large)
+Final answer: 7"
+single_strong,5,A rectangle is 8 meters long and 5 meters wide. What is its perimeter in meters?,26,31.0,False,"(mock reasoning by mock-large)
+Final answer: 31"
+single_strong,6,Maria earns $15 per hour. She works 6 hours a day for 5 days. How many dollars does she earn in total?,450,450.0,True,"(mock reasoning by mock-large)
+Final answer: 450"
+single_strong,7,Tom reads 25 pages a day. His book has 400 pages and he has already read 150. How many more days will it take him to finish?,10,10.0,True,"(mock reasoning by mock-large)
+Final answer: 10"
+single_strong,8,"A shirt costs $40. It is discounted by 25%, and then a $5 coupon is applied. What is the final price in dollars?",25,25.0,True,"(mock reasoning by mock-large)
+Final answer: 25"
+single_strong,9,Three friends split a $72 dinner bill plus a $9 tip equally. How many dollars does each person pay?,27,29.0,False,"(mock reasoning by mock-large)
+Final answer: 29"
+single_strong,10,A water tank holds 200 liters and is 35% full. How many more liters are needed to fill it?,130,130.0,True,"(mock reasoning by mock-large)
+Final answer: 130"
+single_strong,11,A pack of 6 pencils costs $2. How many dollars do 30 pencils cost?,10,10.0,True,"(mock reasoning by mock-large)
+Final answer: 10"
+single_strong,12,A garden has 4 rows of 9 tomato plants and 3 rows of 7 pepper plants. How many plants are there in total?,57,57.0,True,"(mock reasoning by mock-large)
+Final answer: 57"
+single_strong,13,Jane is 3 times as old as her son. Her son is 12. How old will Jane be in 5 years?,41,41.0,True,"(mock reasoning by mock-large)
+Final answer: 41"
+single_strong,14,A bakery sold 48 muffins in the morning and half as many in the afternoon. Each muffin costs $2. How many dollars did they make?,144,144.0,True,"(mock reasoning by mock-large)
+Final answer: 144"
+single_strong,15,A car goes 25 miles per gallon. A trip is 175 miles and gas costs $4 per gallon. How many dollars does the gas cost?,28,28.0,True,"(mock reasoning by mock-large)
+Final answer: 28"
+single_strong,16,"There are 5 boxes with 24 cookies each. 18 cookies are eaten, and the rest are packed into bags of 6. How many bags are filled?",17,17.0,True,"(mock reasoning by mock-large)
+Final answer: 17"
+single_strong,17,The temperature is 8 degrees and drops 3 degrees every hour for 5 hours. What is the temperature now?,-7,-7.0,True,"(mock reasoning by mock-large)
+Final answer: -7"
+single_strong,18,The average of 4 test scores is 85. A fifth test score is 95. What is the new average?,87,87.0,True,"(mock reasoning by mock-large)
+Final answer: 87"
+single_strong,19,A store had 120 shirts. It sold one third on Monday and one quarter of the remaining shirts on Tuesday. How many shirts are left?,60,60.0,True,"(mock reasoning by mock-large)
+Final answer: 60"
+self_consistency,0,Sam has 12 apples. He gives away 5 and then buys 8 more. How many apples does he have now?,15,15.0,True,Final answer: 15.0
+self_consistency,1,A notebook costs $3 and a pen costs $1.50. How much do 7 notebooks and 2 pens cost in dollars?,24,24.0,True,Final answer: 24.0
+self_consistency,2,A train travels at 60 miles per hour for 2.5 hours. How many miles does it travel?,150,150.0,True,Final answer: 150.0
+self_consistency,3,A class has 30 students and 40% of them are girls. How many boys are in the class?,18,18.0,True,Final answer: 18.0
+self_consistency,4,A recipe needs 3 eggs per cake. Anna wants to bake 4 cakes and has 5 eggs. How many more eggs does she need to buy?,7,7.0,True,Final answer: 7.0
+self_consistency,5,A rectangle is 8 meters long and 5 meters wide. What is its perimeter in meters?,26,26.0,True,Final answer: 26.0
+self_consistency,6,Maria earns $15 per hour. She works 6 hours a day for 5 days. How many dollars does she earn in total?,450,450.0,True,Final answer: 450.0
+self_consistency,7,Tom reads 25 pages a day. His book has 400 pages and he has already read 150. How many more days will it take him to finish?,10,11.0,False,Final answer: 11.0
+self_consistency,8,"A shirt costs $40. It is discounted by 25%, and then a $5 coupon is applied. What is the final price in dollars?",25,25.0,True,Final answer: 25.0
+self_consistency,9,Three friends split a $72 dinner bill plus a $9 tip equally. How many dollars does each person pay?,27,27.0,True,Final answer: 27.0
+self_consistency,10,A water tank holds 200 liters and is 35% full. How many more liters are needed to fill it?,130,130.0,True,Final answer: 130.0
+self_consistency,11,A pack of 6 pencils costs $2. How many dollars do 30 pencils cost?,10,10.0,True,Final answer: 10.0
+self_consistency,12,A garden has 4 rows of 9 tomato plants and 3 rows of 7 pepper plants. How many plants are there in total?,57,57.0,True,Final answer: 57.0
+self_consistency,13,Jane is 3 times as old as her son. Her son is 12. How old will Jane be in 5 years?,41,41.0,True,Final answer: 41.0
+self_consistency,14,A bakery sold 48 muffins in the morning and half as many in the afternoon. Each muffin costs $2. How many dollars did they make?,144,144.0,True,Final answer: 144.0
+self_consistency,15,A car goes 25 miles per gallon. A trip is 175 miles and gas costs $4 per gallon. How many dollars does the gas cost?,28,28.0,True,Final answer: 28.0
+self_consistency,16,"There are 5 boxes with 24 cookies each. 18 cookies are eaten, and the rest are packed into bags of 6. How many bags are filled?",17,17.0,True,Final answer: 17.0
+self_consistency,17,The temperature is 8 degrees and drops 3 degrees every hour for 5 hours. What is the temperature now?,-7,-7.0,True,Final answer: -7.0
+self_consistency,18,The average of 4 test scores is 85. A fifth test score is 95. What is the new average?,87,87.0,True,Final answer: 87.0
+self_consistency,19,A store had 120 shirts. It sold one third on Monday and one quarter of the remaining shirts on Tuesday. How many shirts are left?,60,60.0,True,Final answer: 60.0
+multi_model_vote,0,Sam has 12 apples. He gives away 5 and then buys 8 more. How many apples does he have now?,15,15.0,True,Final answer: 15.0
+multi_model_vote,1,A notebook costs $3 and a pen costs $1.50. How much do 7 notebooks and 2 pens cost in dollars?,24,21.0,False,Final answer: 21.0
+multi_model_vote,2,A train travels at 60 miles per hour for 2.5 hours. How many miles does it travel?,150,150.0,True,Final answer: 150.0
+multi_model_vote,3,A class has 30 students and 40% of them are girls. How many boys are in the class?,18,18.0,True,Final answer: 18.0
+multi_model_vote,4,A recipe needs 3 eggs per cake. Anna wants to bake 4 cakes and has 5 eggs. How many more eggs does she need to buy?,7,7.0,True,Final answer: 7.0
+multi_model_vote,5,A rectangle is 8 meters long and 5 meters wide. What is its perimeter in meters?,26,26.0,True,Final answer: 26.0
+multi_model_vote,6,Maria earns $15 per hour. She works 6 hours a day for 5 days. How many dollars does she earn in total?,450,450.0,True,Final answer: 450.0
+multi_model_vote,7,Tom reads 25 pages a day. His book has 400 pages and he has already read 150. How many more days will it take him to finish?,10,0.0,False,Final answer: 0.0
+multi_model_vote,8,"A shirt costs $40. It is discounted by 25%, and then a $5 coupon is applied. What is the final price in dollars?",25,25.0,True,Final answer: 25.0
+multi_model_vote,9,Three friends split a $72 dinner bill plus a $9 tip equally. How many dollars does each person pay?,27,27.0,True,Final answer: 27.0
+multi_model_vote,10,A water tank holds 200 liters and is 35% full. How many more liters are needed to fill it?,130,129.0,False,Final answer: 129.0
+multi_model_vote,11,A pack of 6 pencils costs $2. How many dollars do 30 pencils cost?,10,10.0,True,Final answer: 10.0
+multi_model_vote,12,A garden has 4 rows of 9 tomato plants and 3 rows of 7 pepper plants. How many plants are there in total?,57,59.0,False,Final answer: 59.0
+multi_model_vote,13,Jane is 3 times as old as her son. Her son is 12. How old will Jane be in 5 years?,41,41.0,True,Final answer: 41.0
+multi_model_vote,14,A bakery sold 48 muffins in the morning and half as many in the afternoon. Each muffin costs $2. How many dollars did they make?,144,144.0,True,Final answer: 144.0
+multi_model_vote,15,A car goes 25 miles per gallon. A trip is 175 miles and gas costs $4 per gallon. How many dollars does the gas cost?,28,28.0,True,Final answer: 28.0
+multi_model_vote,16,"There are 5 boxes with 24 cookies each. 18 cookies are eaten, and the rest are packed into bags of 6. How many bags are filled?",17,17.0,True,Final answer: 17.0
+multi_model_vote,17,The temperature is 8 degrees and drops 3 degrees every hour for 5 hours. What is the temperature now?,-7,-10.0,False,Final answer: -10.0
+multi_model_vote,18,The average of 4 test scores is 85. A fifth test score is 95. What is the new average?,87,87.0,True,Final answer: 87.0
+multi_model_vote,19,A store had 120 shirts. It sold one third on Monday and one quarter of the remaining shirts on Tuesday. How many shirts are left?,60,60.0,True,Final answer: 60.0
+debate,0,Sam has 12 apples. He gives away 5 and then buys 8 more. How many apples does he have now?,15,15.0,True,Final answer: 15.0
+debate,1,A notebook costs $3 and a pen costs $1.50. How much do 7 notebooks and 2 pens cost in dollars?,24,24.0,True,Final answer: 24.0
+debate,2,A train travels at 60 miles per hour for 2.5 hours. How many miles does it travel?,150,150.0,True,Final answer: 150.0
+debate,3,A class has 30 students and 40% of them are girls. How many boys are in the class?,18,20.0,False,Final answer: 20.0
+debate,4,A recipe needs 3 eggs per cake. Anna wants to bake 4 cakes and has 5 eggs. How many more eggs does she need to buy?,7,7.0,True,Final answer: 7.0
+debate,5,A rectangle is 8 meters long and 5 meters wide. What is its perimeter in meters?,26,26.0,True,Final answer: 26.0
+debate,6,Maria earns $15 per hour. She works 6 hours a day for 5 days. How many dollars does she earn in total?,450,450.0,True,Final answer: 450.0
+debate,7,Tom reads 25 pages a day. His book has 400 pages and he has already read 150. How many more days will it take him to finish?,10,10.0,True,Final answer: 10.0
+debate,8,"A shirt costs $40. It is discounted by 25%, and then a $5 coupon is applied. What is the final price in dollars?",25,25.0,True,Final answer: 25.0
+debate,9,Three friends split a $72 dinner bill plus a $9 tip equally. How many dollars does each person pay?,27,27.0,True,Final answer: 27.0
+debate,10,A water tank holds 200 liters and is 35% full. How many more liters are needed to fill it?,130,130.0,True,Final answer: 130.0
+debate,11,A pack of 6 pencils costs $2. How many dollars do 30 pencils cost?,10,10.0,True,Final answer: 10.0
+debate,12,A garden has 4 rows of 9 tomato plants and 3 rows of 7 pepper plants. How many plants are there in total?,57,57.0,True,Final answer: 57.0
+debate,13,Jane is 3 times as old as her son. Her son is 12. How old will Jane be in 5 years?,41,41.0,True,Final answer: 41.0
+debate,14,A bakery sold 48 muffins in the morning and half as many in the afternoon. Each muffin costs $2. How many dollars did they make?,144,144.0,True,Final answer: 144.0
+debate,15,A car goes 25 miles per gallon. A trip is 175 miles and gas costs $4 per gallon. How many dollars does the gas cost?,28,28.0,True,Final answer: 28.0
+debate,16,"There are 5 boxes with 24 cookies each. 18 cookies are eaten, and the rest are packed into bags of 6. How many bags are filled?",17,17.0,True,Final answer: 17.0
+debate,17,The temperature is 8 degrees and drops 3 degrees every hour for 5 hours. What is the temperature now?,-7,-7.0,True,Final answer: -7.0
+debate,18,The average of 4 test scores is 85. A fifth test score is 95. What is the new average?,87,92.0,False,Final answer: 92.0
+debate,19,A store had 120 shirts. It sold one third on Monday and one quarter of the remaining shirts on Tuesday. How many shirts are left?,60,60.0,True,Final answer: 60.0
+mixture_of_agents,0,Sam has 12 apples. He gives away 5 and then buys 8 more. How many apples does he have now?,15,15.0,True,"(mock reasoning by mock-large)
+Final answer: 15"
+mixture_of_agents,1,A notebook costs $3 and a pen costs $1.50. How much do 7 notebooks and 2 pens cost in dollars?,24,24.0,True,"(mock reasoning by mock-large)
+Final answer: 24"
+mixture_of_agents,2,A train travels at 60 miles per hour for 2.5 hours. How many miles does it travel?,150,150.0,True,"(mock reasoning by mock-large)
+Final answer: 150"
+mixture_of_agents,3,A class has 30 students and 40% of them are girls. How many boys are in the class?,18,18.0,True,"(mock reasoning by mock-large)
+Final answer: 18"
+mixture_of_agents,4,A recipe needs 3 eggs per cake. Anna wants to bake 4 cakes and has 5 eggs. How many more eggs does she need to buy?,7,7.0,True,"(mock reasoning by mock-large)
+Final answer: 7"
+mixture_of_agents,5,A rectangle is 8 meters long and 5 meters wide. What is its perimeter in meters?,26,26.0,True,"(mock reasoning by mock-large)
+Final answer: 26"
+mixture_of_agents,6,Maria earns $15 per hour. She works 6 hours a day for 5 days. How many dollars does she earn in total?,450,450.0,True,"(mock reasoning by mock-large)
+Final answer: 450"
+mixture_of_agents,7,Tom reads 25 pages a day. His book has 400 pages and he has already read 150. How many more days will it take him to finish?,10,10.0,True,"(mock reasoning by mock-large)
+Final answer: 10"
+mixture_of_agents,8,"A shirt costs $40. It is discounted by 25%, and then a $5 coupon is applied. What is the final price in dollars?",25,25.0,True,"(mock reasoning by mock-large)
+Final answer: 25"
+mixture_of_agents,9,Three friends split a $72 dinner bill plus a $9 tip equally. How many dollars does each person pay?,27,27.0,True,"(mock reasoning by mock-large)
+Final answer: 27"
+mixture_of_agents,10,A water tank holds 200 liters and is 35% full. How many more liters are needed to fill it?,130,130.0,True,"(mock reasoning by mock-large)
+Final answer: 130"
+mixture_of_agents,11,A pack of 6 pencils costs $2. How many dollars do 30 pencils cost?,10,10.0,True,"(mock reasoning by mock-large)
+Final answer: 10"
+mixture_of_agents,12,A garden has 4 rows of 9 tomato plants and 3 rows of 7 pepper plants. How many plants are there in total?,57,57.0,True,"(mock reasoning by mock-large)
+Final answer: 57"
+mixture_of_agents,13,Jane is 3 times as old as her son. Her son is 12. How old will Jane be in 5 years?,41,41.0,True,"(mock reasoning by mock-large)
+Final answer: 41"
+mixture_of_agents,14,A bakery sold 48 muffins in the morning and half as many in the afternoon. Each muffin costs $2. How many dollars did they make?,144,144.0,True,"(mock reasoning by mock-large)
+Final answer: 144"
+mixture_of_agents,15,A car goes 25 miles per gallon. A trip is 175 miles and gas costs $4 per gallon. How many dollars does the gas cost?,28,28.0,True,"(mock reasoning by mock-large)
+Final answer: 28"
+mixture_of_agents,16,"There are 5 boxes with 24 cookies each. 18 cookies are eaten, and the rest are packed into bags of 6. How many bags are filled?",17,17.0,True,"(mock reasoning by mock-large)
+Final answer: 17"
+mixture_of_agents,17,The temperature is 8 degrees and drops 3 degrees every hour for 5 hours. What is the temperature now?,-7,-7.0,True,"(mock reasoning by mock-large)
+Final answer: -7"
+mixture_of_agents,18,The average of 4 test scores is 85. A fifth test score is 95. What is the new average?,87,87.0,True,"(mock reasoning by mock-large)
+Final answer: 87"
+mixture_of_agents,19,A store had 120 shirts. It sold one third on Monday and one quarter of the remaining shirts on Tuesday. How many shirts are left?,60,60.0,True,"(mock reasoning by mock-large)
+Final answer: 60"
+cascade_router,0,Sam has 12 apples. He gives away 5 and then buys 8 more. How many apples does he have now?,15,15.0,True,"(mock reasoning by mock-large)
+Final answer: 15"
+cascade_router,1,A notebook costs $3 and a pen costs $1.50. How much do 7 notebooks and 2 pens cost in dollars?,24,24.0,True,"(mock reasoning by mock-large)
+Final answer: 24"
+cascade_router,2,A train travels at 60 miles per hour for 2.5 hours. How many miles does it travel?,150,150.0,True,"(mock reasoning by mock-large)
+Final answer: 150"
+cascade_router,3,A class has 30 students and 40% of them are girls. How many boys are in the class?,18,18.0,True,Final answer: 18.0
+cascade_router,4,A recipe needs 3 eggs per cake. Anna wants to bake 4 cakes and has 5 eggs. How many more eggs does she need to buy?,7,7.0,True,"(mock reasoning by mock-large)
+Final answer: 7"
+cascade_router,5,A rectangle is 8 meters long and 5 meters wide. What is its perimeter in meters?,26,26.0,True,Final answer: 26.0
+cascade_router,6,Maria earns $15 per hour. She works 6 hours a day for 5 days. How many dollars does she earn in total?,450,450.0,True,Final answer: 450.0
+cascade_router,7,Tom reads 25 pages a day. His book has 400 pages and he has already read 150. How many more days will it take him to finish?,10,10.0,True,Final answer: 10.0
+cascade_router,8,"A shirt costs $40. It is discounted by 25%, and then a $5 coupon is applied. What is the final price in dollars?",25,25.0,True,"(mock reasoning by mock-large)
+Final answer: 25"
+cascade_router,9,Three friends split a $72 dinner bill plus a $9 tip equally. How many dollars does each person pay?,27,28.0,False,"(mock reasoning by mock-large)
+Final answer: 28"
+cascade_router,10,A water tank holds 200 liters and is 35% full. How many more liters are needed to fill it?,130,130.0,True,"(mock reasoning by mock-large)
+Final answer: 130"
+cascade_router,11,A pack of 6 pencils costs $2. How many dollars do 30 pencils cost?,10,10.0,True,"(mock reasoning by mock-large)
+Final answer: 10"
+cascade_router,12,A garden has 4 rows of 9 tomato plants and 3 rows of 7 pepper plants. How many plants are there in total?,57,57.0,True,Final answer: 57.0
+cascade_router,13,Jane is 3 times as old as her son. Her son is 12. How old will Jane be in 5 years?,41,41.0,True,Final answer: 41.0
+cascade_router,14,A bakery sold 48 muffins in the morning and half as many in the afternoon. Each muffin costs $2. How many dollars did they make?,144,144.0,True,"(mock reasoning by mock-large)
+Final answer: 144"
+cascade_router,15,A car goes 25 miles per gallon. A trip is 175 miles and gas costs $4 per gallon. How many dollars does the gas cost?,28,28.0,True,"(mock reasoning by mock-large)
+Final answer: 28"
+cascade_router,16,"There are 5 boxes with 24 cookies each. 18 cookies are eaten, and the rest are packed into bags of 6. How many bags are filled?",17,17.0,True,Final answer: 17.0
+cascade_router,17,The temperature is 8 degrees and drops 3 degrees every hour for 5 hours. What is the temperature now?,-7,-7.0,True,"(mock reasoning by mock-large)
+Final answer: -7"
+cascade_router,18,The average of 4 test scores is 85. A fifth test score is 95. What is the new average?,87,87.0,True,Final answer: 87.0
+cascade_router,19,A store had 120 shirts. It sold one third on Monday and one quarter of the remaining shirts on Tuesday. How many shirts are left?,60,60.0,True,Final answer: 60.0

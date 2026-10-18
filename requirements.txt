@@ -1,0 +1,5 @@
+openai>=1.40
+pandas
+matplotlib
+python-dotenv
+# datasets   # uncomment if you set USE_GSM8K = True in data.py

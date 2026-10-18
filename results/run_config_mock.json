@@ -1,0 +1,28 @@
+{
+  "PROVIDER": "mock",
+  "TEMPERATURE": 0.7,
+  "NUM_QUESTIONS": 20,
+  "VOTE_SAMPLES": 5,
+  "DEBATE_ROUNDS": 2,
+  "MOA_LAYERS": 2,
+  "METHODS": [
+    "single_cheap",
+    "single_strong",
+    "self_consistency",
+    "multi_model_vote",
+    "debate",
+    "mixture_of_agents",
+    "cascade_router"
+  ],
+  "models": {
+    "base_url": null,
+    "api_key_env": null,
+    "models": [
+      "mock-small",
+      "mock-medium",
+      "mock-large"
+    ],
+    "cheap_model": "mock-small",
+    "strong_model": "mock-large"
+  }
+}

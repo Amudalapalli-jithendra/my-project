@@ -1,0 +1,8 @@
+method,accuracy_%,llm_calls_per_q,tokens_per_q,seconds_per_q
+single_cheap,55.0,1.0,83,0.0
+single_strong,90.0,1.0,83,0.0
+self_consistency,95.0,5.0,416,0.0
+multi_model_vote,75.0,3.0,250,0.0
+debate,90.0,9.0,995,0.0
+mixture_of_agents,100.0,7.0,753,0.0
+cascade_router,95.0,2.55,212,0.0
